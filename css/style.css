@@ -382,6 +382,11 @@ body{
 .baloon{
 	width: 110px;
 	position: absolute;
+    width: 44px;
+    height: 65px;
+    background-position: -88px -10px;
+    background-image: url(../sprite/spritesheet.png);
+    background-repeat: no-repeat;
 }
 .baloon--1{
 	left: 30px;

@@ -19,12 +19,12 @@
 				</div>
 				<div class="column9">
 					<nav class="main-navigation pull-right">
-						<a href="#" class="main-navigation__item">Кто мы</a>
-						<a href="#" class="main-navigation__item">Фотографии</a>
-						<a href="#" class="main-navigation__item">План полета</a>
-						<a href="#" class="main-navigation__item">Заказать</a>
-						<a href="#" class="main-navigation__item">Команда</a>
-						<a href="#" class="main-navigation__item">Контакты</a>
+						<a href="#about" class="main-navigation__item">Кто мы</a>
+						<a href="#gallery" class="main-navigation__item">Фотографии</a>
+						<a href="#about-fly" class="main-navigation__item">План полета</a>
+						<a href="#payment" class="main-navigation__item">Заказать</a>
+						<a href="#team" class="main-navigation__item">Команда</a>
+						<a href="#contacts" class="main-navigation__item">Контакты</a>
 					</nav>
 				</div>
 			</div>
@@ -37,8 +37,8 @@
 				<button class="btn btn--more">Подробнее</button>
 			</div>
 		</section>
-	<div class="container">
-		<div class="features">
+		<div class="container">
+			<div class="features">
 				<div class="row">
 					<div class="column3">
 						<div class="features__item features__item--reliability">Современный надежный шар</div>
@@ -53,8 +53,8 @@
 						<div class="features__item features__item--views">Потрясающие виды</div>
 					</div>
 				</div>
-		</div>
-		<section class="about">
+			</div>
+		<section class="about" id="about">
 			<div class="row">
 				<div class="column4">
 					<h2 class="second-title">Вкратце</h2>
@@ -68,7 +68,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="gallery">
+		<section class="gallery" id="gallery">
 			<h2 class="second-title second-title--center">Галерея</h2>
 			<div class="slider">
 				<div class="slider__item"><img src="img/slider1.jpg" alt=""></div>
@@ -80,7 +80,7 @@
 			</div>
 		</section>
 	</div>
-	<section class="about-fly">
+	<section class="about-fly" id="about-fly">
 		<div class="container">
 			<h2 class="second-title second-title--center">Как проходят полеты</h2>
 			<div class="about-fly__process">
@@ -125,7 +125,7 @@
 			</div>
 		</div>
 	<div class="container">
-		<section class="payment">
+		<section class="payment" id="payment">
 			<div class="row">
 				<div class="column5">
 					<h2 class="second-title">Рассчитать стоимость</h2>
@@ -254,7 +254,7 @@
 		</div>
 	</div>
 	<div class="container">
-		<section class="team">
+		<section class="team" id="team">
 			<h2 class="second-title second-title--center">Команда</h2>
 			<div class="column3">
 				<div class="team-item">
@@ -303,7 +303,7 @@
 			</div>
 			</section>
 	</div>
-	<section class="contacts">
+	<section class="contacts" id="contacts">
 	<div class="container">
 		<div class="contacts__title">Запишите адрес аэропорта<span>Всеволожск, улица Аэродромная 19а</span></div>
 		<div class="row">
@@ -343,16 +343,32 @@
 				</div>
 				<div class="column9">
 					<nav class="main-navigation pull-right">
-						<a href="#" class="main-navigation__item">Кто мы</a>
-						<a href="#" class="main-navigation__item">Фотографии</a>
-						<a href="#" class="main-navigation__item">План полета</a>
-						<a href="#" class="main-navigation__item">Заказать</a>
-						<a href="#" class="main-navigation__item">Команда</a>
-						<a href="#" class="main-navigation__item">Контакты</a>
+						<a href="#about" class="main-navigation__item">Кто мы</a>
+						<a href="#gallery" class="main-navigation__item">Фотографии</a>
+						<a href="#about-fly" class="main-navigation__item">План полета</a>
+						<a href="#payment" class="main-navigation__item">Заказать</a>
+						<a href="#team" class="main-navigation__item">Команда</a>
+						<a href="#contacts" class="main-navigation__item">Контакты</a>
 					</nav>
 				</div>
 			</div>
 		</div>
 	</footer>
+	<script>
+$(function() {
+$('a[href*=#]:not([href=#])').click(function() {
+if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+var target = $(this.hash);
+target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+if (target.length) {
+$('html,body').animate({
+scrollTop: target.offset().top
+}, 1000);
+return false;
+}
+}
+});
+});
+</script>
 </body>
 </html>

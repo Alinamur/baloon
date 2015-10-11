@@ -370,8 +370,10 @@ body{
 	transform: rotate(-180deg);
 }
 .about-fly{
-	background-color: #506a05;
 	text-align: center;
+	background-image: url(../img/about-fly__bg.jpg);
+	background-size: cover;
+	background-position: center top;
 }
 .about-fly__process{
 	position: relative;
@@ -418,10 +420,13 @@ body{
 }
 .statistic{
 	padding: 60px 0;
-	background-color: #bcb5aa;
+	background-image: url(../img/statastic_bg.jpg);
+	background-size: cover;
+	background-position: center top;
 	color: #fff;
 	text-align: center;
 	margin-top: 60px;
+	height: 378px;
 }
 .statistic-item{
 	display: inline-block;
@@ -442,7 +447,9 @@ body{
 }
 .contacts{
 	padding: 140px 0 65px;
-	background-color: #b5d9f2;
+	background-image: url(../img/contacts_bg.jpg);
+	background-size: cover;
+	background-position: center top;
 }
 .contacts__title{
 	text-align: center;

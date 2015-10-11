@@ -6,7 +6,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700ampsubset=latin,cyrillic" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
-	
+	<link rel="stylesheet" href="http://www.owlcarousel.owlgraphic.com/assets/owlcarousel/assets/owl.carousel.min.css" />
 </head>
 <body>
 	<header class="navigation-row">
@@ -371,5 +371,16 @@ return false;
 });
 });
 </script>
+<script src="http://www.owlcarousel.owlgraphic.com/assets/owlcarousel/owl.carousel.js">$(document).ready(function(){
+      $('.slider').owlCarousel({
+      items:4,
+      loop:true,
+      mouseDrag: true,
+      touchDrag: true,
+      nav: true,
+      margin: 20,
+      navText: [" " , " "],
+      });
+      });</script>
 </body>
 </html>

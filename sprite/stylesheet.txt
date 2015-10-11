@@ -1,0 +1,107 @@
+.sprite_icon {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite_icon-arrow__side {
+    width: 20px;
+    height: 33px;
+    background-position: -10px -10px;
+}
+
+.sprite_icon-arrow_down {
+    width: 18px;
+    height: 29px;
+    background-position: -50px -10px;
+}
+
+.sprite_icon-baloon {
+    width: 44px;
+    height: 65px;
+    background-position: -88px -10px;
+}
+
+.sprite_icon-camera {
+    width: 65px;
+    height: 50px;
+    background-position: -152px -10px;
+}
+
+.sprite_icon-css {
+    width: 72px;
+    height: 34px;
+    background-position: -10px -95px;
+}
+
+.sprite_icon-fb {
+    width: 22px;
+    height: 23px;
+    background-position: -152px -80px;
+}
+
+.sprite_icon-glass {
+    width: 75px;
+    height: 28px;
+    background-position: -102px -123px;
+}
+
+.sprite_icon-insta {
+    width: 22px;
+    height: 23px;
+    background-position: -194px -80px;
+}
+
+.sprite_icon-like {
+    width: 56px;
+    height: 58px;
+    background-position: -237px -10px;
+}
+
+.sprite_icon-mail {
+    width: 23px;
+    height: 17px;
+    background-position: -236px -88px;
+}
+
+.sprite_icon-man {
+    width: 15px;
+    height: 15px;
+    background-position: -279px -88px;
+}
+
+.sprite_icon-phone {
+    width: 19px;
+    height: 19px;
+    background-position: -197px -123px;
+}
+
+.sprite_icon-pin {
+    width: 35px;
+    height: 50px;
+    background-position: -236px -125px;
+}
+
+.sprite_icon-plane {
+    width: 41px;
+    height: 40px;
+    background-position: -10px -195px;
+}
+
+.sprite_icon-question {
+    width: 40px;
+    height: 34px;
+    background-position: -71px -195px;
+}
+
+.sprite_icon-up {
+    width: 29px;
+    height: 29px;
+    background-position: -131px -195px;
+}
+
+.sprite_icon-vk {
+    width: 22px;
+    height: 23px;
+    background-position: -180px -195px;
+}

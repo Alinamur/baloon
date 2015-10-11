@@ -359,15 +359,14 @@ body{
     background-position: -10px -10px;
     opacity: 0.5;
 }
-.slider__control:hover{
-	opacity: 1;
-}
-.slider__control--next{
-	right: 0%;
-}
-.slider__control--prev{
+.slider__control, .owl-prev, .owl-next{outline: none; }
+.slider__control--next, .owl-next{right: 0%; }
+.slider__control--prev, .owl-prev{ 
 	left: 0%;
 	transform: rotate(-180deg);
+}
+.slider__control:hover{
+	opacity: 1;
 }
 .about-fly{
 	text-align: center;

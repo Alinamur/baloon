@@ -347,7 +347,8 @@ body{
 .slider__control, .owl-prev, .owl-next{
 	position: absolute;
 	content: "";
-	margin-top: 45%;
+	top: 50%;
+	margin-top: -17px;
 	font-size: 0px;
 	background-color: transparent;
     background-image: url(../sprite/spritesheet.png);
@@ -358,12 +359,17 @@ body{
     background-position: -10px -10px;
     opacity: 0.5;
 }
-.slider__control--next, .owl-next{right: 0%; }
+.slider__control--next, .owl-next{
+	right: -2%;
+ }
+ .owl-next:hover{
+ 	opacity: 1;
+ }
 .slider__control--prev, .owl-prev{ 
-	left: 0%;
+	left: -2%;
 	transform: rotate(-180deg);
 }
-.slider__control:hover{
+.owl-prev:hover{
 	opacity: 1;
 }
 .about-fly{

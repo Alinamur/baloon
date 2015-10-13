@@ -417,6 +417,10 @@ body{
 	padding: 30px 0;
 	color: #26668e;
 }
+.time .column6{
+	font-weight: 500;
+	font-size: 32px;
+}
 .counter__item{
 	display: inline-block;
 	vertical-align: top;
@@ -425,6 +429,60 @@ body{
 	padding: 80px 0;
 	border-bottom: 1px solid #ccc;
 	margin-bottom: 70px;
+}
+.paymemt__text{
+	font-weight: 400;
+	font-size: 18px;
+	width: 445px;
+	line-height: 24px;
+}
+.payment__sum{
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 24px;
+}
+.payment__sum span{
+	color: #f97e7e;
+	font-weight: 500;
+	font-size: 38px;
+	vertical-align: middle;
+}
+.btn--blue{
+	background-color: #46b0dc;
+	color: #fff;
+	border-radius: 3px;
+	padding: 13px 42px;
+	vertical-align: middle;
+}
+.payment-method{
+	width: 590px;
+}
+.payment-method p{
+	font-size: 18px;
+	font-weight: 400;
+	width: 485px;
+}
+.payment-method__ways{
+	line-height: 24px;
+	font-size: 26px;
+	font-weight: 500;
+}
+.faq_item__question{
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 24px;
+	position: relative;
+}
+.faq_item__question::before{
+	position: absolute;
+	content:"";
+	background-image: url(../sprite/spritesheet.png);
+    background-repeat: no-repeat;
+	width: 40px;
+    height: 34px;
+	background-position: -71px -195px;
+	
+}
 }
 .statistic{
 	padding: 60px 0;

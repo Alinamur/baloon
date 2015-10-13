@@ -336,7 +336,7 @@ body{
 .slider__item{
 	display: inline-block;
 	vertical-align: center;
-	width: 260px;
+	width: 295px;
 	margin: 0 7px;
 	opacity: 0.8;
 	cursor: pointer;
@@ -459,10 +459,13 @@ body{
 .payment-method{
 	width: 590px;
 }
-.payment-method p{
+.payment-method__text{
 	font-size: 18px;
 	font-weight: 400;
 	width: 485px;
+}
+.new-line{
+	margin-bottom: 0;
 }
 .payment-method__ways{
 	line-height: 24px;
@@ -519,7 +522,7 @@ body{
 	font-weight: 500;
 }
 .team-item__work{
-	padding-top: 15px;
+	padding-top: 10px;
 	font-size: 18px;
 	font-weight: 500;
 }
@@ -530,6 +533,15 @@ body{
 	width: 455px;
 	font-size: 13px;
 }
+.feedback-item__name{
+	font-weight: 500;
+	font-size: 22px;
+	padding-top: 25px;
+	padding-bottom: 23px;
+}
+.feedback-item__text{
+	font-size: 18px;
+}
 .contacts{
 	padding: 140px 0 65px;
 	background-image: url(../img/contacts_bg.jpg);
@@ -539,5 +551,10 @@ body{
 .contacts__title{
 	text-align: center;
 	margin: 0 auto 50px;
-	width: 430px;
+	width: 340px;
+	font-weight: 500;
+	font-size: 26px;
+}
+.contacts__title span{
+
 }

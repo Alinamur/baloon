@@ -465,7 +465,13 @@ body{
 	width: 485px;
 }
 .new-line{
-	margin-bottom: 0;
+	line-height: 5px;
+}
+.new-line:first-child:{
+	padding-top: 35px;
+}
+.new-line:last-child:{
+	padding-bottom: 35px;
 }
 .payment-method__ways{
 	line-height: 24px;
@@ -554,7 +560,9 @@ body{
 	width: 340px;
 	font-weight: 500;
 	font-size: 26px;
+	line-height: 30px;
 }
 .contacts__title span{
-
+	font-size: 18px;
+	font-weight: 500;
 }

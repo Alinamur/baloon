@@ -538,18 +538,22 @@ body{
 #owl2 .owl-prev{
 width: 20px;
 height: 20px;
-background-color: red;
+background-color: transparent;
 left: 0;
 }
 #owl2 .owl-next{
 width: 20px;
 height: 20px;
-background-color: red;
+background-color: transparent;
 right: 0;
 }
 .feedback-item{
 	width: 455px;
 	font-size: 13px;
+}
+.feedback-item__photo{
+	width: 98px;
+	height: 98px;
 }
 .feedback-item__name{
 	font-weight: 500;
@@ -559,6 +563,7 @@ right: 0;
 }
 .feedback-item__text{
 	font-size: 18px;
+	width: 550px;
 }
 .contacts{
 	padding: 140px 0 65px;

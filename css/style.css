@@ -532,6 +532,20 @@ body{
 }
 .feedback{
 	padding-bottom: 110px;
+	position: relative;
+}
+#owl2 .owl-prev, .owl-next{position: absolute;top: 45%;}
+#owl2 .owl-prev{
+width: 20px;
+height: 20px;
+background-color: red;
+left: 0;
+}
+#owl2 .owl-next{
+width: 20px;
+height: 20px;
+background-color: red;
+right: 0;
 }
 .feedback-item{
 	width: 455px;

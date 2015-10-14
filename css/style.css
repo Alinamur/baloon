@@ -518,6 +518,7 @@ body{
 .team{
 	padding: 90px 0;
 	text-align: center;
+	padding-bottom: 115px;
 }
 .team-item__name{
 	padding-top: 38px;
@@ -534,22 +535,11 @@ body{
 	padding-bottom: 110px;
 	position: relative;
 }
-#owl2 .owl-prev, .owl-next{position: absolute;top: 45%;}
-#owl2 .owl-prev{
-width: 20px;
-height: 20px;
-background-color: transparent;
-left: 0;
-}
-#owl2 .owl-next{
-width: 20px;
-height: 20px;
-background-color: transparent;
-right: 0;
-}
 .feedback-item{
-	width: 455px;
+	width: 550px;
 	font-size: 13px;
+	display: inline-block;
+	text-align: center;
 }
 .feedback-item__photo{
 	width: 98px;
@@ -563,15 +553,17 @@ right: 0;
 }
 .feedback-item__text{
 	font-size: 18px;
-	width: 550px;
 }
 .contacts{
 	padding: 140px 0 65px;
 	background-image: url(../img/contacts_bg.jpg);
 	background-size: cover;
 	background-position: center top;
+	height: 450px;
+	box-sizing: border-box;
 }
 .contacts__title{
+	position: relative;
 	text-align: center;
 	margin: 0 auto 50px;
 	width: 340px;
@@ -579,7 +571,55 @@ right: 0;
 	font-size: 26px;
 	line-height: 30px;
 }
+.contacts__title::before{
+	padding: 15px;
+	background-color: #337ba0;
+	border-radius: 3px;
+	position: absolute;
+	content: "";
+	background-image: url(../sprite/spritesheet.png);
+    background-repeat: no-repeat;
+	width: 41px;
+    height: 40px;
+    bottom: 80px;
+    left: 145px;
+    background-position: 5px -180px;
+}
 .contacts__title span{
 	font-size: 18px;
 	font-weight: 500;
+}
+.address{
+	position: relative;
+	padding-left: 58px;
+}
+.address::before{
+	position: absolute;
+	content: "";
+	background-image: url(../sprite/spritesheet.png);
+    background-repeat: no-repeat;
+	width: 35px;
+    height: 50px;
+    left: 0;
+    background-position: -236px -125px;
+}
+.address__title{
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 26px;
+	padding-bottom: 20px;
+	color: #2b2b2b;
+}
+.address__text{
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 26px;
+	padding-bottom: 20px;
+	width: 175px;
+	color: #525252;
+}
+.address__phone{
+	font-weight: 500;
+	font-size: 26px;
+	color: #292929;
 }

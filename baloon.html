@@ -286,22 +286,24 @@
 				</div>
 			</div>
 		</section>
-		<section class="feedback"  >
+			<section class="feedback"  >
 			<h2 class="second-title second-title--center">Отзывы</h2>
-			<div class="slider" id="owl2">
-				<div class="slider__item feedback-item">
+				<div class="row">
+				<div class="column6 pull-left">
+				<div class="feedback-item">
 					<img src="img/feedback1.png" alt="" class="feedback-item__photo">
 					<div class="feedback-item__name">Ольга Алексеева</div>
 					<div class="feedback-item__text">Оооо это было чудесно!!! Я не знала что воздушные шары такие огромные. Забавно, большой шар и маленькая корзинка. Полет восхитительный, выше всяких похвал. Мы побывали в самом красивом месте на Земле - в небе, оттуда открываются потрясающие виды.</div>
 				</div>
-				<div class="slider__item feedback-item">
+				</div>
+				<div class="column6 pull-right">
+				<div class="feedback-item">
 					<img src="img/feedback2.png" alt="" class="feedback-item__photo">
 					<div class="feedback-item__name">Артем Рыбкин</div>
 					<div class="feedback-item__text">Жене подарил полет на воздушном шаре. Сделал сюрприз на день рождения. Жена была в восторге, мне и самому понравилось, очень необычные ощущения от полета, хоть не самолет, а летит быстро, маршрут подобрали красивый. Cпасибо вам, нам все понравилось.</div>
 				</div>
-				<button class="slider__control slider__control--prev">Назад</button>
-				<button class="slider__control slider__control--next">Вперед</button>
-			</div>
+				</div>
+				</div>
 			</section>
 	</div>
 	<section class="contacts" id="contacts">
@@ -386,19 +388,5 @@ return false;
       });
       });
 	</script>
-<script>	jQuery(document).ready(function(){
-      jQuery('#owl2').owlCarousel({
-      items:2,
-      loop:true,
-      mouseDrag: true,
-      touchDrag: true,
-      nav: true,
-      navText: [" "," "],
-      singleItem: true,
-      //- URLhashListener:true,
-      
-      });
-      });
-    </script>
 </body>
 </html>

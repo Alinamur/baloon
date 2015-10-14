@@ -623,3 +623,49 @@ body{
 	font-size: 26px;
 	color: #292929;
 }
+.email{
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 26px;
+	text-decoration: underline;
+	color: #444;
+	position: relative;
+	padding-left: 50px;
+}
+.email::before{
+	position: absolute;
+	content: "";
+	background-image: url(../sprite/spritesheet.png);
+    background-repeat: no-repeat;
+	width: 23px;
+    height: 17px;
+    background-position: -236px -88px;
+    left: 5px;
+    bottom: 5px;
+}
+.socio{
+	padding-top: 30px;
+	height: 25px;
+	width: 110px;
+}
+.socio__item--vk{
+	background-image: url(../sprite/spritesheet.png);
+    background-repeat: no-repeat;
+	width: 22px;
+    height: 23px;
+    background-position: -180px -195px;
+}
+.socio__item--fb{
+	background-image: url(../sprite/spritesheet.png);
+    background-repeat: no-repeat;
+	width: 22px;
+    height: 23px;
+    background-position: -152px -80px;
+}
+.socio__item--insta{
+	background-image: url(../sprite/spritesheet.png);
+    background-repeat: no-repeat;
+	width: 22px;
+    height: 23px;
+    background-position: -194px -80px;
+}

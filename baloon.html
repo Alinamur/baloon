@@ -113,10 +113,7 @@
 					</div>
 					<div class="column6">
 						<div class="counter pull-right">
-							<div class="counter__item">2<span>дня</span></div>
-							<div class="counter__item">16<span>часов</span></div>
-							<div class="counter__item">8<span>минут</span></div>
-							<div class="counter__item">14<span>секунд</span></div>
+							<div id="clock"></div>
 						</div>
 					</div>
 				</div>
@@ -387,6 +384,13 @@ return false;
       navText: [" " , " "],
       });
       });
+	</script>
+	<script>$('#clock').countdown('2020/10/10', function(event) {
+2   var $this = $(this).html(event.strftime(''
+3     + '<span>150</span> hr '
+4     + '<span>45</span> min '
+5     + '<span>0</span> sec'));
+6 });
 	</script>
 </body>
 </html>

@@ -407,8 +407,8 @@ body{
     background-repeat: no-repeat;
 	width: 44px;
     height: 65px;
-    left: 20px;
-    
+    left: 0px;
+
     background-position: -88px -10px;
 	position: absolute;
 	margin-top: 30px;
@@ -424,24 +424,24 @@ body{
 }
 .baloon--1{
 	left: 30px;
-	top: 240px;
+	top: 115px;
 }
 .baloon--2{
 	left: 288px;
-	top: 160px;
+	top: 80px;
 }
 .baloon--3{
 	left: 50%;
-	top: 50px;
+	top: -45px;
 	transform: translate(-50%); 
 }
 .baloon--4{
-	right: 288px;
-	top: 160px;
+	right: 250px;
+	top: 80px;
 }
 .baloon--5{
 	right: 30px;
-	top: 240px;
+	top: 115px;
 
 }
 .time{

@@ -460,10 +460,6 @@ body{
 	font-weight: 500;
 	font-size: 32px;
 }
-.counter__item{
-	display: inline-block;
-	vertical-align: top;
-}
 #countdown{
 	color: #ff4;}
 .is-countdown{
